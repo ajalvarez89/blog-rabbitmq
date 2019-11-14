@@ -8,7 +8,7 @@ Just run the bundle install:
 
 ```bash
   bundle install
-  yarn install --check-files`
+  yarn install --check-files
 ```
 
 Now you should create db and run the migrates:
@@ -26,3 +26,5 @@ To run the app:
 ## Pending
 - Install rspec
 - Create tests
+
+![Screenshot](app/assets/images/diagram.png)
