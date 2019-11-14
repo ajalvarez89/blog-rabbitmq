@@ -8,6 +8,7 @@ Just run the bundle install:
 
 ```bash
   bundle install
+  yarn install --check-files`
 ```
 
 Now you should create db and run the migrates:
