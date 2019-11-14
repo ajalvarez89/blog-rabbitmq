@@ -1,24 +1,27 @@
-# README
+# Blog-rabbitmq
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a examplo to asynchronous communication across RabbitMq, generating events into a queue.
 
-Things you may want to cover:
+## Setup
 
-* Ruby version
+Just run the bundle install:
 
-* System dependencies
+```bash
+  bundle install
+```
 
-* Configuration
+Now you should create db and run the migrates:
 
-* Database creation
+```bash
+  rails db:create db:migrate
+```
 
-* Database initialization
+To run the app:
 
-* How to run the test suite
+```bash
+  rails server
+```
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Pending
+- Install rspec
+- Create tests
