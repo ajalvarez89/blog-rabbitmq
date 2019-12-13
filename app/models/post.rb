@@ -1,8 +1,8 @@
 class Post < ApplicationRecord
 
-  enum status: [:created, :canceled, :payed, :completed]
-
-  def change
-    add_column :posts, :status, :integer, default: 0
-  end
+  enum status: {
+    created: 0,
+    edited: 1,
+    completed: 2
+  }
 end
